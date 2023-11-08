@@ -4,7 +4,7 @@ def sum():
 
     result = number_one + number_two
 
-    print("The result of sum is ", result)
+    print("The result of the operation sum is:", result)
 
 def rest():
     number_one = 8
@@ -12,7 +12,16 @@ def rest():
 
     result = number_one - number_two
 
-    print("The result of rest is:",result)
+    print("The result of the operation rest is:",result)
+
+def multiply():
+    number_one = 12
+    number_two = 2
+
+    result = number_one * number_two
+
+    print("The result of the operation multiply is:",result)
     
 sum()
 rest()
+multiply()
