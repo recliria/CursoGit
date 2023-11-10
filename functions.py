@@ -1,4 +1,4 @@
-def sum():
+def add():
     number_one = 5
     number_two = 6
 
