@@ -21,7 +21,16 @@ def multiply():
     result = number_one * number_two
 
     print("The result of the operation multiply is:",result)
+
+def divide():
+    number_one = 8
+    number_two = 2
+
+    result = number_one / number_two
+
+    print("The result of divide is:",result)
     
 add()
 rest()
 multiply()
+divide()
