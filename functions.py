@@ -22,6 +22,6 @@ def multiply():
 
     print("The result of the operation multiply is:",result)
     
-sum()
+add()
 rest()
 multiply()
