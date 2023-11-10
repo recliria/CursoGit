@@ -1,3 +1,5 @@
+import math
+
 def add():
     number_one = 5
     number_two = 6
@@ -21,7 +23,15 @@ def multiply():
     result = number_one * number_two
 
     print("The result of the operation multiply is:",result)
+
+def square_root():
+    number = 8
+
+    result = math.isqrt(number)
+
+    print("The result of the square root is:", result)
     
 add()
 rest()
 multiply()
+square_root()
